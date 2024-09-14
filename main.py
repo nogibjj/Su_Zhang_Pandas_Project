@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from ydata_profiling import ProfileReport
 
 # Load the healthcare dataset
 health_df = pd.read_csv("healthcare_dataset.csv")
@@ -39,12 +38,6 @@ def build_histogram():
     plt.show()
 
 
-# generate summary profiling report for the healthcare dataset
-def generate_summary():
-    profile = ProfileReport(health_df, title="Healthcare Dataset Profiling Report")
-    profile.to_file("profile.html")
-
-
 # main to execute the functions.
 if __name__ == "__main__":
     print_head()
@@ -53,5 +46,4 @@ if __name__ == "__main__":
     print(group_by("Medical Condition"))
     print(group_by("Admission Type"))
     print(group_by("Test Results"))
-    generate_summary()
     build_histogram()
