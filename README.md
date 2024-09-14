@@ -1,4 +1,4 @@
-
+[![Python Application Test with Github Actions - Pandas Project Su Zhang](https://github.com/nogibjj/Su_Zhang_Pandas_Project/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Pandas_Project/actions/workflows/cicd.yml)
 
 # Su Zhang Pandas Project - IDS706 Week 2 Assignment
 This project aims to analyze a dataset on patients' healthcare records, which includes patient age, gender, blood type, medical condition, billing amount, medication etc. Please note that these data are not real-world data and are just for descriptive data practice. This project primarily used Pandas and Matplotlib packages to analyze the distribution of billing amount, summary statistics (mean, median, max, standard variation) of billing amount, and age. This project also showcased the distribution of subcategories in tables for the categorical variables, such as blood type, medical condition, admission type, and test results. 
