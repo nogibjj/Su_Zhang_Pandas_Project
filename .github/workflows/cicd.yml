@@ -1,4 +1,4 @@
-name: Python Application Test with Github Actions - Assignment 1
+name: Python Application Test with Github Actions - Pandas Project Su Zhang
 on:
   schedule:
   - cron:  '0 3 * * SUN'
@@ -31,6 +31,3 @@ jobs:
       - name: format with black 
         run: |
           make format
-    #   - name: deploy the app
-    #     run: |
-    #       make deploy
